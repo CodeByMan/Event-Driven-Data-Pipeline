@@ -1,13 +1,14 @@
-# ⚡ Event-Driven Data Pipeline on AWS
+<h1 align="center">⚡ Event-Driven Data Pipeline on AWS</h1>
 
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazonaws)
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![Lambda](https://img.shields.io/badge/AWS%20Lambda-Serverless-yellow?style=for-the-badge&logo=awslambda)
-![S3](https://img.shields.io/badge/Amazon%20S3-Storage-green?style=for-the-badge&logo=amazons3)
-![License](https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazonaws" alt="AWS" />
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" alt="Python" />
+  <img src="https://img.shields.io/badge/AWS%20Lambda-Serverless-yellow?style=for-the-badge&logo=awslambda" alt="AWS Lambda" />
+  <img src="https://img.shields.io/badge/Amazon%20S3-Storage-green?style=for-the-badge&logo=amazons3" alt="Amazon S3" />
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge" alt="License" />
+</p>
 
 A serverless **data engineering pipeline** that processes stock pricing CSV files using an event-driven architecture on AWS.
-
 The project demonstrates how to build a reliable, decoupled data workflow using **Amazon S3, Amazon SNS, Amazon SQS, and AWS Lambda**. When a CSV file is uploaded to the source S3 path, an event is published, queued, processed by Lambda, transformed, and written back to the target S3 output path.
 
 ---
