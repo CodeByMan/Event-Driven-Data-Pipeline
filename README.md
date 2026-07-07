@@ -1,4 +1,4 @@
-<h1 align="center">⚡ Event-Driven Data Pipeline on AWS</h1>
+<h1 align="center">Event-Driven Data Pipeline on AWS</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazonaws" alt="AWS" />
